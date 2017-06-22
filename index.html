@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<title>JUKEBOX</title>
+</head>
+<body>
+
+	<audio id="player" src="http://dopefile.pk/mp3embed-7gw2lgxgohw5.mp3"></audio>
+
+
+
+
+	<div class="display">
+		<div>
+			<marquee class="marke">Lil Uzi Vert-XO TOUR Llif3</marquee>
+		</div>
+		<div class="songs">
+			<ol id="listofsongs"> 
+				<li>Lil Uzi Vert-XO TOUR Llif3</li>
+				<button onclick="myf1()">play</button>
+    		</ol>
+		</div>
+	
+
+	</div>
+
+	<div class = buttons>
+		<p class="o"></p>
+		<input class="b1" type="image" src="icons/play-off.jpg"> 
+		<input class="b2" type="image" src="icons/pause-off.jpg">
+		<input class="b3" type="image" src="icons/stop-off.jpg">
+		<input class="b4" type="image" src="icons/skip-off.jpg">
+	
+	</div>
+
+
+	<div class="list">
+		<input type="Text" class="search"></input>
+		<button class="bsearch"> Search Songs</button>	
+	<ol id="matches"></ol>
+	</div>
+
+	<div class="pic">
+		<img id="img1" src="icons/playlist.jpg">
+	</div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+</html>
